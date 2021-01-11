@@ -1,0 +1,32 @@
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    padding: 50px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block {
+}
+.block_row {
+    display:flex;
+    align-items: stretch;
+    border: 20px solid #ece89d;
+    margin: 0px 0px 20px 0px;
+}
+.block_column {
+    border: 20px solid #5e5373;
+}
+.block_item {
+    background-color:aqua;
+    padding: 50px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.block_column2 {
+    
+}
+
