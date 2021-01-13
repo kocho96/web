@@ -1,8 +1,9 @@
 .wrapper {
-      display: flex;
+    display: flex;
     flex-wrap: wrap;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +12,13 @@
     margin: 3%;
     padding: 1%;
 }
+
 @media screen and (min-width: 1280px) {
-    div:last-child(9) {
-     background-color: blueviolet;   
+    div:nth-child(9) {
+        width: 30%;
+    }
+
+    div:nth-child(10) {
+        width: 30%;
     }
 }
